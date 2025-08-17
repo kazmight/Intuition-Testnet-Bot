@@ -5,7 +5,7 @@ import fs from 'fs';
 import path from 'path';
 
 import config, { Random } from './config.js';
-import CryptoBotUI from './ui.js';
+import CryptoBotUI from './crypto-bot-ui.js';
 
 
 const LAST_ERC20 = path.join(process.cwd(), 'last_deployed_erc20.json');
