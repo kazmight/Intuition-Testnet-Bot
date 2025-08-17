@@ -1,0 +1,18 @@
+{
+  "name": "cuy-testnet-bot",
+  "version": "1.0.0",
+  "description": "Automation Testnet Bot with UI (token & NFT deploy, random transfer, etc.)",
+  "main": "kazmight.js",
+  "type": "module",
+  "scripts": {
+    "start": "node kazmight.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "dotenv": "^17.2.1",
+    "ethers": "^5.7.2",
+    "figlet": "^1.7.0",
+    "moment": "^2.30.1",
+    "solc": "^0.8.26"
+  }
+}
