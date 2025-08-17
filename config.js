@@ -19,18 +19,18 @@ export default {
 
   
   withdraw: {
-    enabled: false,
+    enabled: true,
     destination: '0x000000000000000000000000000000000000dEaD',
     amountEth: 0.0001
   },
 
   
   randomNative: {
-    enabled: false,
-    txCount: 3,
+    enabled: true,
+    txCount: 5,
     minEth: 0.00001,
     maxEth: 0.00005,
-    delaySec: 2
+    delaySec: 5
   },
 
   
@@ -44,7 +44,7 @@ export default {
       enabled: true,
       txCount: 5,
       amountPerTx: 250,
-      delaySec: 3
+      delaySec: 5
     }
   },
 
@@ -58,7 +58,7 @@ export default {
     autoSend: {
       enabled: true,
       txCount: 5,
-      delaySec: 4
+      delaySec: 5
     }
   }
 };
